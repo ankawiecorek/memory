@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="0"
+                android:id="@+id/imageButton1"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop"
+                android:onClick="ClickAction" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="1"
+                android:id="@+id/imageButton2"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="2"
+                android:id="@+id/imageButton4"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="3"
+                android:id="@+id/imageButton3"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="0"
+                android:id="@+id/imageButton5"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="1"
+                android:id="@+id/imageButton6"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="2"
+                android:id="@+id/imageButton7"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="3"
+                android:id="@+id/imageButton8"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="0"
+                android:id="@+id/imageButton9"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="1"
+                android:id="@+id/imageButton10"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="2"
+                android:id="@+id/imageButton11"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="3"
+                android:id="@+id/imageButton12"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="0"
+                android:id="@+id/imageButton13"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="1"
+                android:id="@+id/imageButton14"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="2"
+                android:id="@+id/imageButton15"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+            <ImageButton
+                android:src="@drawable/card"
+                android:layout_column="3"
+                android:id="@+id/imageButton16"
+                android:clickable="true"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerCrop" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
